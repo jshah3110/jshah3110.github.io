@@ -1649,12 +1649,13 @@
 		}
 
 	a {
-		text-decoration: underline;
-		color: #f32853;
+		text-decoration: none;
+		color: #728CA4;
 	}
 
 		a:hover {
 			text-decoration: none;
+			color: #3A9CF3;
 		}
 
 	strong, b {
@@ -2561,7 +2562,7 @@
 		color: #aaa;
 		position: relative;
 		margin: 0 0 1.5em 0;
-		text-transform: uppercase;
+		text-transform: capitalize;
 	}
 
 	header h2 + p {
@@ -3100,8 +3101,18 @@
 		#banner:last-child {
 			margin-bottom: 0;
 		}
-
-		#banner h2 {
+		
+		#banner h4 {
+			color: #ffffff;
+			display: inline-block;
+			font-size: 1.5em;
+			font-weight: normal;
+			line-height: 0.4;
+			margin-bottom: 0.5em;
+			text-transform: capitalize
+		}
+		
+		#banner h3 {
 			color: #ffffff;
 			display: inline-block;
 			font-size: 3.5em;
